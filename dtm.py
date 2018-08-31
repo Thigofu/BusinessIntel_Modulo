@@ -2,6 +2,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
 from matplotlib.backends.backend_pdf import PdfPages
+import time
 
 #função que faz a conversão para porcentagem e exibe texto nos graficos
 def make_autopct(values):
