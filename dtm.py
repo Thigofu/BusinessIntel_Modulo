@@ -2,7 +2,6 @@
 import matplotlib.pyplot as plt
 import numpy as np
 from matplotlib.backends.backend_pdf import PdfPages
-import time
 
 #função que faz a conversão para porcentagem e exibe texto nos graficos
 def make_autopct(values):
@@ -45,7 +44,7 @@ OUTPUT:
 #PRIMEIRO ITEM DA LISTA FUNCIONARIOS
 Alinhafunc = Linhasfunc[1]
 ListaLinhafunc = Alinhafunc.split(',')
-print(ListaLinhafunc[1]) #printa o primeiro item da lista(no caso os dias de lotação do CAA)
+#print(ListaLinhafunc[1]) #printa o primeiro item da lista(no caso os dias de lotação do CAA)
 
 #OUTPUT
 # ['Segunda;Sexta']
